@@ -12,7 +12,7 @@ The easiest for to run ldap-ltb image is as follow:
 ```
       $ docker run --name=<your-container-name> -dt \
         --net=<your-network-name> \
-        adop/adop-ldap-admin:VERSION
+        accenture/adop-ldap-admin:VERSION
 ```        
 after the above adop-phpldapadmin will be available at: http://ldap-phpadmin
         
