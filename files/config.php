@@ -11,4 +11,6 @@ $servers->setValue('login','auth_type','cookie');
 $servers->setValue('login','bind_id','');
 $servers->setValue('server','tls',false);
 
+$config->custom->appearance['hide_template_warning'] = true;
+
 ?>
